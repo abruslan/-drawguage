@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<meta name="http-equiv" content="Content-type: text/html; charset=UTF-8">
+<body>
+<h1>Text</h1>
+<canvas id="myCanvas" width="700" height="700" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script type="text/javascript" src="drawdashboard.js" charset="utf-8"></script>
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+drawdashboard(ctx, 150,150,100,  44,10);
+drawdashboard(ctx, 500,150,100,  10,19);
+
+drawdashboard(ctx, 150,300,100,  19,10);
+drawdashboard(ctx, 500,300,100,  25,70);
+
+drawdashboard(ctx, 150,500,100,  25,24);
+drawdashboard(ctx, 500,500,100,  40,44);
+
+
+</script> 
+
+</body>
+</html>
